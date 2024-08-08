@@ -44,10 +44,12 @@ This dataset was taken from the UCI Machine Learning Repository. It was collecte
 
 ## **Business Recommendation**
 
-1. Consider creating preventive measures such as **early intervention programs**, personalized payment plans, or targeted intensive communication for those predicted to default.
-2. Provide customers with information at the beginning of the agreement about the consequences of defaulting and what they should do if they realize they are going to default
+1. Prioritize the client groups with high conversion rates. Based on EDA, there are client groups with significantly higher conversion rates, such as students, retirees, and the unemployed. The bank should consider targeting these groups more in marketing campaigns as they show a higher propensity to invest. Tailoring marketing messages to be more relevant to their needs and preferences can improve conversion rates.
+2. Since balance does not show a significant positive relationship with conversion rates, focus on other aspects of financial condition. Provide relevant information on how term deposits can help with long-term financial planning and generate passive income, especially for clients without active employment
+3. Based on EDA, clients without housing loans are more likely to invest in term deposits. Consider developing special offers or incentives for clients with housing loans to increase their interest. This could include promotions or special programs that help them take advantage of investment opportunities
 
 ## **Model Improvement Recommendation**
 
-1. Regularly update the model with new data to ensure its effectiveness over time. Periodic retraining and hyperparameter tuning can help maintain or improve the model's performance, ensuring that it adapts to any changes in customer behavior or economic conditions
+1. Improve the model’s precision by performing hyperparameter tuning with a broader range of hyperparameter values. Expanding the range of hyperparameters will increase the likelihood of finding a more optimal combination of hyperparameters
+2. Use the GridSearch method in the hyperparameter tuning process. Since the current modeling uses the RandomSearch method, there is a possibility that a more optimal combination of hyperparameters can be found through GridSearch
 

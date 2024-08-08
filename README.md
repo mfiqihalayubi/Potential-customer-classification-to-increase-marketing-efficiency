@@ -44,9 +44,9 @@ This dataset was taken from the UCI Machine Learning Repository. It was collecte
 
 ## **Business Recommendation**
 
-1. Prioritize the client groups with high conversion rates. Based on EDA, there are client groups with significantly higher conversion rates, such as students, retirees, and the unemployed. The bank should consider targeting these groups more in marketing campaigns as they show a higher propensity to invest. Tailoring marketing messages to be more relevant to their needs and preferences can improve conversion rates.
-2. Since balance does not show a significant positive relationship with conversion rates, focus on other aspects of financial condition. Provide relevant information on how term deposits can help with long-term financial planning and generate passive income, especially for clients without active employment
-3. Based on EDA, clients without housing loans are more likely to invest in term deposits. Consider developing special offers or incentives for clients with housing loans to increase their interest. This could include promotions or special programs that help them take advantage of investment opportunities
+1. Prioritize client groups based on their occupancy with high conversion rates. Based on the EDA, there are three client groups with relatively high conversion rates, such as students, retirees, and the unemployed. The bank is advised to target these groups more in marketing campaigns, as they show a higher propensity to accept term deposit investments
+2. Since balance does not show a significant positive correlation with the conversion rate, the bank (especially the marketing team) should focus on other aspects of clients' financial conditions. Provide relevant information on how term deposit investments can assist in long-term financial planning and generate passive income, particularly for clients without active employment
+3. According to the EDA, clients with housing loans are less likely to accept term deposit offers. The bank may consider developing special offers or incentives for clients with housing loans to increase their interest, making them more likely to invest in term deposits. This could include promotions or special programs that help them take advantage of investment opportunities
 
 ## **Model Improvement Recommendation**
 
